@@ -81,9 +81,7 @@
     }
   
     
-    .lesson-four-task-twenty form *:invalid {
-      background-color: red;
-    }
-    .lesson-four-task-twenty form *:valid {
-      background-color: white;
-    }
+   .lesson-four-task-twenty input:invalid {
+          background-color: red;
+          color: white;
+        }
